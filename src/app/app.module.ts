@@ -11,6 +11,7 @@ import { HomeComponent } from './component/home/home.component';
 import { MascotasComponent } from './component/mascotas/mascotas.component';
 import { ServiciosComponent } from './component/servicios/servicios.component';
 import { ProductosComponent } from './component/productos/productos.component';
+import { FooterComponent } from './component/shared/footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProductosComponent } from './component/productos/productos.component';
     HomeComponent,
     MascotasComponent,
     ServiciosComponent,
-    ProductosComponent
+    ProductosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
