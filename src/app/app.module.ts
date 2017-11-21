@@ -1,20 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//rutas
+import { APP_ROUTING } from './app.routes';
 
+//componente
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/shared/navbar/navbar.component';
 import { HomeComponent } from './component/home/home.component';
+import { MascotasComponent } from './component/mascotas/mascotas.component';
+import { ServiciosComponent } from './component/servicios/servicios.component';
+import { ProductosComponent } from './component/productos/productos.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    MascotasComponent,
+    ServiciosComponent,
+    ProductosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
