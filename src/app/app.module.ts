@@ -12,6 +12,9 @@ import { MascotasComponent } from './component/mascotas/mascotas.component';
 import { ServiciosComponent } from './component/servicios/servicios.component';
 import { ProductosComponent } from './component/productos/productos.component';
 import { FooterComponent } from './component/shared/footer/footer.component';
+import { GalleryComponent } from './component/home/gallery/gallery.component';
+import { ImageListComponent } from './component/home/gallery/image-list/image-list.component';
+import { ImageComponent } from './component/home/gallery/image-list/image.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { FooterComponent } from './component/shared/footer/footer.component';
     MascotasComponent,
     ServiciosComponent,
     ProductosComponent,
-    FooterComponent
+    FooterComponent,
+    GalleryComponent,
+    ImageListComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
